@@ -4,6 +4,10 @@ class Component {
     this.props = props;
   }
 
+  render () {
+    // Child objects define their own render() methods
+  }
+
 }
 
 export default Component;
