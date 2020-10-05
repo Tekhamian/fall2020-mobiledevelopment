@@ -11,7 +11,7 @@ const Example = () => {
     return (
         <p>
         {/* <div>This is a Test!</div> */}
-        <div>{intro}</div>
+        {intro}
         </p>
     )
 };
