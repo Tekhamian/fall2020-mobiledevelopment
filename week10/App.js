@@ -7,7 +7,7 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       
       <Text style={{color: 'black', fontSize: '20px'}}>Name: Robert Thompson</Text>
-      <Text style={{fontSize: '15px'}}>Favorite Cousines: Caribbean & Sea Foods</Text>
+      <Text style={{fontSize: '15px'}}>Favorite Foods : Caribbean Cuisines & Sea Food</Text>
       <p>
         <Button 
           title='Click Here To Test Button'
