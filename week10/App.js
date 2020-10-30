@@ -10,14 +10,14 @@ export default function App() {
       <Text style={{fontSize: '15px'}}>Favorite Foods : Caribbean Cuisines & Sea Food</Text>
       <p>
         <Button 
-          title='Click Here To Test Button'
+          title='Click Here To Test'
           color='green' 
-          onPress={() =>alert("Thank You, Button Has Been Tested")
+          onPress={() =>alert('Button Has Been Tested, Thank You')
           }        
         />
       </p>
 
-      <StatusBar style="auto" />
+      <StatusBar style='auto' />
     </SafeAreaView>
   );
 }
