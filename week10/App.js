@@ -1,24 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { Button, StyleSheet, Alert, Text, SafeAreaView } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
+    <View style={styles.container}>
       
       <Text style={{color: 'black', fontSize: '20px'}}>Name: Robert Thompson</Text>
       <Text style={{fontSize: '15px'}}>Favorite Foods : Caribbean Cuisines & Sea Food</Text>
-      <p>
-        <Button 
-          title='Click Here To Test'
-          color='green' 
-          onPress={() =>alert('Button Has Been Tested, Thank You')
-          }        
-        />
-      </p>
-
       <StatusBar style='auto' />
-    </SafeAreaView>
+    </View>
   );
 }
 
