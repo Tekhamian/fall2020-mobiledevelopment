@@ -1,4 +1,4 @@
-//Part1:A) Create a New React Native project named week13 &...
+//Part1:A) Create a New React Native project named week12 &...
 import { StatusBar } from 'expo-status-bar';
 import React, {useState} from 'react';
 import { View, Text, StyleSheet, Image } from 'react-native';
@@ -6,7 +6,8 @@ import { View, Text, StyleSheet, Image } from 'react-native';
 import { Card, Button } from 'react-native-elements';
 
 export default function App() {
-
+  
+  // Hook for state 
   const [vote, chgVote] = useState('');
 
   const pressedButtonOne = () => {
@@ -36,6 +37,8 @@ export default function App() {
         <Card.Title style={{color: 'orange'}}>Click button below to vote for the best location:</Card.Title> 
        
         {/* Voting Option 1 */}
+	<Text style={{fontSize: '15px'}}>Location 1 - Big City</Text>
+        <Card.Divider />
         <Image source={{
           width: 380,
           height: 250,
@@ -50,7 +53,9 @@ export default function App() {
           />
         </View>    
         
-         {/* Voting Option 2 */}
+        {/* Voting Option 2 */}
+	<Text style={{fontSize: '15px'}}>Location 2 - Lake/ Wildlife Reserve</Text>
+        <Card.Divider />
         <Image source={{
           width: 380,
           height: 250,
@@ -66,7 +71,9 @@ export default function App() {
         </View>
 
         {/* Voting Option 3 */}
-       <Image source={{
+	<Text style={{fontSize: '15px'}}>Location 3 - Tropical/ Beach </Text>
+        <Card.Divider />
+       	<Image source={{
         width: 380,
         height: 250,
         uri:"http://picsum.photos/id/372/3264/2448"
@@ -105,5 +112,3 @@ const styles = StyleSheet.create({
     marginBottom: 30,
   }
 });
-
-
